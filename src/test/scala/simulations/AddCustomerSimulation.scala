@@ -28,7 +28,7 @@ class AddCustomerSimulation extends Simulation {
 
 
   //setup
-  setUp(scn.inject(atOnceUsers(users=100))).protocols(value_conf)
+  setUp(scn.inject(atOnceUsers(users=30))).protocols(value_conf)
 
 
 
